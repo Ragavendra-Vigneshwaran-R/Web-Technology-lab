@@ -1,0 +1,65 @@
+<html>
+<head>
+<title> Registration Form </title>
+</head>
+<body bgcolor=#F7E4E0>
+<h2 align="center">EVENT REGISTRATION FORM</h2>
+<form method="post">
+<table align="center" hframe="box"; border="10">
+<tr>
+<td>Student Name</td>
+<td><input type=name name="name" pattern="[A-Za-z]"></td>
+</tr>
+<tr>
+<td>Dob</td>
+<td><input type=date name="dob"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type=radio name="gender">male
+<input type=radio name="gender">female
+<input type=radio name="gender">others</td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type=email name="email" required></td>
+</tr>
+<tr>
+<td>Mobile no</td>
+<td><input type=text name="mobile" size=10></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea></textarea> size = 60 </td>
+</tr>
+<tr>
+<td>State</td> 
+<td><select id="state">
+<option value=tamilnadu>TamilNadu</option>
+<option value=assam>Assam</option>
+<option value=karnataka>Karnataka</option>
+<option value=raipur>raipur</option>
+<option value=hyderabad>hyderabad</option>
+<option value=delhi>Delhi</option>
+<option value=patna>patna</option>
+<option value=himachal pradesh>himachal pradesh</option>
+</select></td>
+</tr>
+<tr>
+<td>Pincode</td>
+<td><input type= text name="pin" size=6 required></td>
+</tr>
+<tr><td rowspan=5 align="top">Events Intersted</td>
+<td><input type=checkbox name="event1">data base</td></tr>
+<tr><td><input type=checkbox name="event2">robotics</td></tr>
+<tr><td><input type=checkbox name="event3">html</td></tr>
+<tr><td><input type=checkbox name="event4">Technical Quiz</td></tr>
+<tr><td><input type=checkbox name="event5">Paper Presentation</td></tr>
+<tr></tr>
+<tr>
+<td colspan=5 align="center"><input type="submit" name="submit"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

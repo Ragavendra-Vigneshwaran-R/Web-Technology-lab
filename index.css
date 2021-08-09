@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.heading{
+    width: 100%;
+    top: 10px;
+	position: fixed;
+	height: 1500px;
+}
+.heading h1{
+    font-family: poppins;
+    font-size: 40px;
+}
+.heading h2{
+    font-family: poppins;
+    font-size: 25px;
+}
+.wraper{
+    width: 100%;
+    top: 200px;
+	position: fixed;
+	height: 1500px;
+}
+.wraper h2{
+    font-family: poppins;
+    font-size: 40px;
+    
+}
+.table{
+    width: 100%;
+    top: 300px;
+    margin-left: 25%;
+	position: fixed;
+	height: 1500px;
+}
+
+.table th{
+    text-align: center;
+    font-size: 30px;
+}
+.table td{
+    text-align: center;
+    font-size: 25px;
+}
+.name{
+    width: 100%;
+    top: 600px;
+    margin-left: 25%;
+    position: absolute;
+	height: auto;
+}
