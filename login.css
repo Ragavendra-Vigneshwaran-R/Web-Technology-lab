@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+}
+section{
+   max-height: 100vh;
+   position: relative !important;
+}
+#new{
+    margin-top: 5% !important;
+    margin-left: 10% !important;
+     position: absolute !important;
+       width: 80% !important;
+       height: 80% !important;
+       background: rgba( 255, 255, 255, 0.00 );
+       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+       backdrop-filter: blur( 0.0px );
+       -webkit-backdrop-filter: blur( 0.0px );
+       border-radius: 10px;
+       border: 1px solid rgba( 255, 255, 255, 0.18 );
+       z-index: 1 !important;
+}
+/*  */
+/* #home-page{
+    
+            width: 1417px;
+            height: 851px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 0.9;
+            backdrop-filter: blur(50px);
+            -webkit-backdrop-filter: blur(50px);
+} */
+
+#home-page{
+  background-image: url(login_register.jpg);
+  background-repeat: no-repeat !important;
+ background-size: cover;
+    width:100% !important;
+   min-height:100vh !important;
+   z-index: 0 !important;
+  
+}  
+.a2img2{
+    align-items: center !important;
+   
+
+} 
+form{
+    align-items: center !important;
+     width: 25%;
+     z-index: 100 !important;
+     
+}
+
+input[type=text], input[type=password] {
+    padding: 5px !important;
+    border-radius:10px 10px 0px 0px !important;
+    text-align: left;
+    opacity: 1;
+    
+}
+.a1btn1{
+    background-color: #237DB6!important ;
+   
+    border-radius: 30px;
+    color: white;
+    padding: 10px !important;
+    width: 100% !important;
+    
+}
+.a2img2{
+    align-items: center !important;
+     text-align: center !important;
+     margin-left: 40% !important;
+}
+a{
+    color: #237DB6 !important;
+    margin-left: 1px;
+}
+.a1text1{
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width: 780px) {
+    form{
+        width: 80%;
+    }
+    .img2{
+        width: 80% !important;
+        margin-left: 20% !important;
+    }
+  }
+#form1{
+    align-items:center;
+}

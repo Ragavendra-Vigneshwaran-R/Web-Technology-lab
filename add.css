@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+form{
+    z-index: 50 !important;
+}
+#gray{
+    background-color: gray;
+    opacity: 70% 
+    !important;
+    width: 100%  !important;
+    padding-top: 1% !important;
+    padding-bottom:1% !important;
+    padding-left: 1.5% !important;
+    font-size: 20px !important;
+    color: white;
+}
+.black{
+    width: 100%;
+  padding: 15px 15px 15px 0 !important;
+    background-color: black;
+    color: white;
+    direction: rtl !important;
+}
+.add{
+    margin-bottom: 1% !important;
+}
+.form-control{
+    width: 50% !important;
+   
+}
+input{
+    padding: 8px !important;
+    padding-left: 23px !important;
+    border-radius:10px 10px 0px 0px !important;
+    border-color: none !important;
+}
+.form-control1{
+    width: 22% !important;
+    padding: 8px !important;
+    border-radius:10px 10px 0px 0px !important;
+    padding-left: 23px !important;
+  
+}
+#control1{
+    width: 10% !important;
+    padding: 8px !important;
+    border-radius:10px 10px 0px 0px !important;
+    padding-left: 23px !important;
+}
+.form-control2{
+    width: 45% !important;
+}
+#imgurl{
+    width: 71% !important;
+}
+#exampleFormControlTextarea1{
+    width: 71% !important;
+    border-radius:10px 10px 0px 0px !important;
+    padding-left: 23px !important;
+}
+/* main */
+.main{
+    width: 100%;
+    background: transparent url('./admin.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover !important;
+    min-height: 100vp !important;
+    padding-bottom: 9%  !important;
+
+   
+}
+/* .img2{
+    width: 80%;
+    z-index: -5 !important;
+    height: 80% !important;
+    border-radius: 0px 20px 0px 0px;
+opacity: 0.75;
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+} */
+.gray1{
+        background-color: #00000029;
+}
+.blob{
+    border-radius: 50px;
+    width: 50% !important;
+}
+.btn1{
+    width: 15%;
+    padding: 10px !important;
+    border-radius: 30px;
+    background-color: #237DB6;
+    color: white;
+}
+.btn2{
+    width: 15%;
+    padding: 10px !important;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+.img2{
+    width: 50% !important;
+    padding-top: 105% !important;
+}
