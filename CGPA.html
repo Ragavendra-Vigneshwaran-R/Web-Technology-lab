@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity=
+    "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="CGPA.css">
+    <title>CGPA CALCULATOR</title>
+    <link rel="shortcut icon" type="image" href="./icons8_nfo_servers_400px.png">
+</head>
+<body>
+    <h1 class="display-5" style="text-align: center;color: aliceblue;">CGPA CALCULATOR</h1>
+    <p class="lead" style="text-align: center;color: aliceblue;">Calculate CGPA as per your choice</p>
+   <div class="container " style="text-align: center;padding: 2rem;">
+        <div class="row">
+            <div class="col-12">
+                <div class="card" style="width: auto;" >
+                    <img src="https://gpacalculator.io/assets/images/college-gpa-calculator.jpg" class="card-img-top" alt="..." style="height:20rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary btn-sm " style="text-align: left;margin-bottom:1rem;" id="mark">ACCORDING TO GRADE POINTS AND CREDITS</button>
+                                        <span class="moretext"><div class="input-group mb-3"  style="text-align:right;margin-bottom: 1rem;">
+                                            <input type="number" min="0" max="10" id="m1" class="form-control" placeholder="Grade point of Subject 1">
+                                            <input type="number" min="0" max="5" id="c1" class="form-control" placeholder="Credits of Subject 1">
+                                        </div>
+                                        <div class="input-group mb-3"  style="text-align:right;margin-bottom: 1rem;">
+                                            <input type="number" min="0" max="10" id="m2" class="form-control" placeholder="Grade point of Subject 2">
+                                            <input type="number" min="0" max="5" id="c2" class="form-control" placeholder="Credits of Subject 2">
+                                        </div>
+                                        <div class="input-group mb-3"  style="text-align:right;margin-bottom: 1rem;">
+                                            <input type="number" min="0" max="10" id="m3" class="form-control" placeholder="Grade point of Subject 3">
+                                            <input type="number" min="0" max="5" id="c3" class="form-control" placeholder="Credits of Subject 3">
+                                        </div>
+                                        <div class="input-group mb-3"  style="text-align:right;margin-bottom: 1rem;">
+                                            <input type="number" min="0" max="10" id="m4" class="form-control" placeholder="Grade point of Subject 4">
+                                            <input type="number" min="0" max="5" id="c4" class="form-control" placeholder="Credits of Subject 4">
+                                        </div>
+                                        <div class="input-group mb-3" style="text-align:right;margin-bottom: 1rem;">
+                                            <input type="number" min="0" max="10" id="m5" class="form-control" placeholder="Grade point of Subject 5">
+                                            <input type="number" min="0" max="5" id="c5" class="form-control" placeholder="Credits of Subject 5">
+                                        </div>
+                                        <div class="input-group mb-3" style="text-align:right;margin-bottom: 1rem;">
+                                            <input type="number" min="0" max="10" id="m6" class="form-control" placeholder="Grade point of Subject 6">
+                                            <input type="number" min="0" max="5" id="c6" class="form-control" placeholder="Credits of Subject 6">
+                                        </div>
+                                        <button type="button" class="btn btn-success btn-sm" id="calculate_grade" style="text-align: left;margin-top:1rem;">Calculate</button>
+                                        </span>
+                                </div>
+                            <div class="col-4"></div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary btn-sm " style="text-align: left;margin-bottom:1rem;" id="mark1">ACCORDING TO GPA</button>
+                                <span class="gpa_moretext">
+                                    <div class="input-group mb-3">
+                                        <input type="number" min="0" max="10" id="g1" class="form-control" placeholder="GPA of Semester 1">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input type="number" min="0" max="10" id="g2" class="form-control" placeholder="GPA of Semester 2">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input type="number" min="0" max="10" id="g3" class="form-control" placeholder="GPA of Semester 3">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input type="number" min="0" max="10" id="g4" class="form-control" placeholder="GPA of Semester 4">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input type="number" min="0" max="10" id="g5" class="form-control" placeholder="GPA of Semester 5">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input type="number" min="0" max="10" id="g6" class="form-control" placeholder="GPA of Semester 6">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input type="number" min="0" max="10" id="g7" class="form-control" placeholder="GPA of Semester 7">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input type="number" min="0" max="10" id="g8" class="form-control" placeholder="GPA of Semester 8">
+                                    </div>
+                                    <button type="button" class="btn btn-success btn-sm" id="calculate_gpa" style="text-align: left;margin-top:1rem;">Calculate</button>
+                                </span>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <h1 class="display-3" style="text-align: center;text-shadow: 1rem;" id="result"></h1>
+    <script src="./CGPA.js"></script>
+</body>
+</html>
