@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title> Simple Calculator using Module in nodejs</title>
+ <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<form name="calculator" action="http://localhost:7010" method="get">
+    <table class = "calculator" >
+        <tr>
+        <td colspan = "3"> <input class = "display-box" type = "text" id = "result" name="result"> </td>
+        <td> <input class = "button" type = "button" value = "C" onclick = "calculator.result.value=''" > </td>
+        </tr>
+        <tr>
+        <td> <input class = "button" type = "button" value = "1" onclick = "calculator.result.value+='1'" > </td>
+        <td> <input class = "button" type = "button" value = "2" onclick = "calculator.result.value+='2'" > </td>
+        <td> <input class = "button" type = "button" value = "3" onclick = "calculator.result.value+='3'" > </td>
+        <td> <input class = "button" type = "button" value = "/" onclick = "calculator.result.value+='/'" > </td>
+        </tr>
+        <tr>
+        <td> <input class = "button" type = "button" value = "4" onclick = "calculator.result.value+='4'" > </td>
+        <td> <input class = "button" type = "button" value = "5" onclick = "calculator.result.value+='5'" > </td>
+        <td> <input class = "button" type = "button" value = "6" onclick = "calculator.result.value+='6'" > </td>
+        <td> <input class = "button" type = "button" value = "-" onclick = "calculator.result.value+='-'" > </td>
+        </tr>
+        <tr>
+        <td> <input class = "button" type = "button" value = "7" onclick = "calculator.result.value+='7'" > </td>
+        <td> <input class = "button" type = "button" value = "8" onclick = "calculator.result.value+='8'" > </td>
+        <td> <input class = "button" type = "button" value = "9" onclick = "calculator.result.value+='9'" > </td>
+        <td> <input class = "button" type = "button" value = "+" onclick = "calculator.result.value+='+'" > </td>
+        </tr>
+        <tr>
+        <td> <input class = "button" type = "button" value = "." onclick = "calculator.result.value+='.'"> </td>
+        <td> <input class = "button" type = "button" value = "0" onclick = "calculator.result.value+='0'"> </td>
+        <td> <input class = "button" type = "submit" value = "="> </td>
+        <td> <input class = "button" type = "button" value = "*" onclick = "calculator.result.value+='*'" > </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
